@@ -11,10 +11,11 @@ export const siteConfig: SiteConfig = {
 			year: "numeric",
 		},
 	},
-	description: "A site for sharing info about the block party on the 600 block of Hancock Street, Brooklyn, NY.",
+	description:
+		"A site for sharing info about the block party on the 600 block of Hancock Street, Brooklyn, NY.",
 	lang: "en-US",
 	ogLocale: "en_US",
-	title: "Hancock Block Party",
+	title: "Hancock Block Party!",
 	url: "https://hancockblock.party/",
 };
 

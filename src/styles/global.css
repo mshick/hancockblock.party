@@ -6,14 +6,23 @@
 /* use a selector-based strategy for dark mode */
 @variant dark (&:where([data-theme="dark"], [data-theme="dark"] *));
 
+@font-face {
+	font-family: "shrikhand";
+	src: url("/fonts/shrikhand-regular.ttf") format("ttf");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
 /* you could refactor below to use light-dark(), depending on your target audience */
 @theme {
 	--color-global-bg: oklch(98.48% 0 0);
 	--color-global-text: oklch(26.99% 0.0096 235.05);
 	--color-link: oklch(55.44% 0.0431 185.69);
-	--color-accent: oklch(55.27% 0.195 19.06);
+	--color-accent: oklch(55.5679% 0.2551 28.81);
 	--color-accent-2: oklch(18.15% 0 0);
-	--color-quote: oklch(55.27% 0.195 19.06);
+	--color-quote: oklch(55.5679% 0.2551 28.81);
+	--font-shrikhand: "shrikhand", sans-serif;
 }
 
 @layer base {
