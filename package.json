@@ -1,5 +1,5 @@
 {
-	"name": "hancockblock.party",
+	"name": "hancockblock-party",
 	"version": "6.5.0",
 	"scripts": {
 		"dev": "astro dev",
@@ -61,12 +61,7 @@
 		"overrides": {
 			"sharp": "^0.34.2"
 		},
-		"onlyBuiltDependencies": [
-			"@biomejs/biome",
-			"@tailwindcss/oxide",
-			"esbuild",
-			"sharp"
-		]
+		"onlyBuiltDependencies": ["@biomejs/biome", "@tailwindcss/oxide", "esbuild", "sharp"]
 	},
 	"packageManager": "pnpm@10.12.1"
 }
