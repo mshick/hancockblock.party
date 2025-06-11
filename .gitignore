@@ -41,3 +41,11 @@ node_modules/
 
 # Astro
 .astro
+
+# macOS-specific files
+.DS_Store
+
+# misc
+*.pem
+.cache
+.astro

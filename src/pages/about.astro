@@ -1,0 +1,30 @@
+---
+import PageLayout from "@/layouts/Base.astro";
+import { Image } from "astro:assets";
+import Waterslide from "@/assets/waterslide.jpeg";
+
+const meta = {
+	description: "600 block of Hancock Street in Stuyvesant Heights, Brooklyn, NY",
+	title: "About",
+};
+---
+
+<PageLayout meta={meta}>
+	<h1 class="title mb-6">About</h1>
+	<div class="prose prose-sm prose-cactus max-w-none">
+		<p>
+			This site is for the beautiful 600 block of Hancock Street in Stuyvestant Heights, Brooklyn,
+			NY. It is between Stuyvesant Ave and Malcolm X Blvd, and it is lined with historic brick and
+			brownstone buildings.
+		</p>
+		<Image
+			src={Waterslide}
+			alt="600 block of Hancock Street in Stuyvesant Heights, Brooklyn, NY"
+			class="rounded-lg"
+			width={800}
+			height={600}
+			loading="lazy"
+			fetchpriority="low"
+		/>
+	</div>
+</PageLayout>
