@@ -3,6 +3,7 @@ import type { AstroExpressiveCodeOptions } from "astro-expressive-code";
 
 export const siteConfig: SiteConfig = {
 	author: "Michael Shick",
+	email: "hello@hancockblock.party",
 	date: {
 		locale: "en-US",
 		options: {
