@@ -9,6 +9,13 @@ The next block party will be on July 12th starting at noon. Please join us for s
 
 [Download the flyer](/planning-flyer-2025.pdf)
 
+## $80 in contributions so far
+
+Thanks to:
+
+- Vivian
+- Melissa
+
 ## Calendar
 
 ### Planning
