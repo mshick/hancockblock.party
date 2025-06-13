@@ -11,12 +11,14 @@ The next block party will be on July 12th starting at noon. Please join us for s
 
 ## Contributions
 
-### So far we have $80 toward our goal of $1500
+### So far we have $180 toward our goal of $1500
 
 Thanks to:
 
 - Vivian
 - Melissa
+- Ryan
+- Michael
 
 ## Calendar
 
